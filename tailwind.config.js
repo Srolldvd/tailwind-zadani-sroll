@@ -10,8 +10,10 @@ export default {
         primary: ['Inter', 'serif'],
       },
       colors: {
-        body: '#171717',
-        primary: '#3B82F6',
+        'body': '#171717',
+        'primary': '#3B82F6',
+        'primary-darker': '#3c78da',
+        'info': '#737373',
       }
     },
   },

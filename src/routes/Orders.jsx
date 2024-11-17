@@ -1,7 +1,11 @@
+import Order from "../components/Order";
+
 const Orders = () => {
     return (
-        <div>
-            <h1>Moje objednávky</h1>
+        <div className="flex flex-col gap-8">
+            <Order />
+            <Order />
+            <Order />
         </div>
     )
 }
