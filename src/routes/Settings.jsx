@@ -84,7 +84,7 @@ const Settings = () => {
                 placeholder=""
               />
               <label
-                htmlFor="first-name"
+                htmlFor="invoice-first-name"
                 className="absolute start-2.5 top-4 z-10 origin-[0] -translate-y-3 scale-[0.65] transform whitespace-nowrap duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:-translate-y-3 peer-focus:scale-[0.65] rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4"
               >
                 Jméno<span className="text-red-500">&#42;</span>
@@ -100,7 +100,7 @@ const Settings = () => {
                 placeholder=""
               />
               <label
-                htmlFor="last-name"
+                htmlFor="invoice-last-name"
                 className="absolute start-2.5 top-4 z-10 origin-[0] -translate-y-3 scale-[0.65] transform whitespace-nowrap duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:-translate-y-3 peer-focus:scale-[0.65] rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4"
               >
                 Příjmení<span className="text-red-500">&#42;</span>
