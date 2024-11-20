@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  base: "/TAILWIND-ZADANI-SROLL/"
+  base: "/tailwind-zadani-sroll/"
 })
