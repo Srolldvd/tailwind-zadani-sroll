@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
-    body {
-      @apply min-h-screen font-primary bg-neutral-50 text-base text-body;
-    }
+  body {
+    @apply min-h-screen bg-neutral-50 font-primary text-base text-body;
   }
+}
 
 @layer components {
   select:has(option[value=""]:not(:checked)) + label {
-    @apply scale-75 -translate-y-2
+    @apply -translate-y-2 scale-75;
   }
 }
