@@ -21,7 +21,7 @@ const PageTitle = () => {
     }, [curLoc])
 
     return (
-        <h1 className="col-span-2 py-8 text-3xl font-semibold">{pageTitle}</h1>
+        <h1 className="py-8 text-2xl font-semibold lg:col-span-2 lg:text-3xl">{pageTitle}</h1>
     )
 };
 

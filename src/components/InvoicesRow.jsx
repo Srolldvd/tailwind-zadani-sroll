@@ -1,9 +1,9 @@
 const InvoicesRow = () => {
     return (
         <tr>
-            <td className="py-5 px-6">121548784515487</td>
-            <td className="py-5 px-6">121548784515487</td>
-            <td className="py-5 px-6">-1500 Kč</td>
+            <td className="py-5 px-6 whitespace-nowrap">121548784515487</td>
+            <td className="py-5 px-6 whitespace-nowrap">121548784515487</td>
+            <td className="py-5 px-6 whitespace-nowrap">-1500 Kč</td>
             <td className="py-5 px-6">
                 <a href="#" className="flex items-center justify-end gap-1 text-primary hover:underline">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
