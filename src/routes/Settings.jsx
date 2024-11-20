@@ -280,8 +280,8 @@ const Settings = () => {
               Přeji si dostávat informace o novinkách a slevách nebo inspiraci
             </label>
           </div>
-          <div className="flex flex-col justify-between gap-2 sm:flex-row">
-            <div className="flex flex-col gap-3 sm:flex-row">
+          <div className="flex flex-col justify-between gap-4 sm:flex-row sm:gap-2">
+            <div className="flex flex-col gap-4 sm:flex-row sm:gap-3">
               <button
                 type="submit"
                 className="rounded-lg border-2 border-primary bg-primary px-6 py-3 font-semibold text-white transition-colors hover:bg-primary-darker"
