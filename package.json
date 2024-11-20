@@ -1,7 +1,6 @@
 {
   "name": "tailwind-zadani-sroll",
   "private": true,
-  "homepage": "https://srolldvd.github.io/master/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
