@@ -12,7 +12,10 @@ const Sidebar = () => {
     <>
       <div
         onClick={showSidebar}
-        className="relative z-50 cursor-pointer place-self-end self-center rounded-lg bg-white p-3 text-gray-500 hover:text-black lg:hidden"
+        className={
+          "z-50 cursor-pointer place-self-end self-center rounded-lg bg-white p-3 text-gray-500 hover:text-black lg:hidden " +
+          (sidebar ? "fixed right-6 top-6" : "relative")
+        }
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
