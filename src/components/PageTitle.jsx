@@ -5,10 +5,10 @@ const PageTitle = () => {
     const [pageTitle, setPageTitle] = useState('Home');
 
     const titleMap = [
-      {path: '/', title:'Home'},
-      {path: '/orders', title:'Moje objednávky'},
-      {path: '/invoices', title:'Faktury'},
-      {path: '/settings', title:'Nastavení'}
+      {path: '/tailwind-zadani-sroll/', title:'Home'},
+      {path: '/tailwind-zadani-sroll/orders', title:'Moje objednávky'},
+      {path: '/tailwind-zadani-sroll/invoices', title:'Faktury'},
+      {path: '/tailwind-zadani-sroll/settings', title:'Nastavení'}
     ]
   
     let curLoc = useLocation();
