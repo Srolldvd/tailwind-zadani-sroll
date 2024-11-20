@@ -9,7 +9,7 @@ import Orders from "./routes/orders";
 import Sidebar from "./components/Sidebar";
 import Invoices from "./routes/Invoices";
 import Settings from "./routes/Settings";
-/* import "./index.css"; */
+import "./index.css";
 
 const Layout = () => (
   <main className="grid grid-cols-[auto_1fr] gap-x-8 px-4 sm:px-6 md:px-10 lg:px-16">
@@ -25,22 +25,22 @@ const router = createBrowserRouter([
     element: <Layout />,
     children: [
       {
-        path: "/",
+        path: "/tailwind-zadani-sroll/",
         element: (
           <div>
           </div>
         ),
       },
       {
-        path: "orders",
+        path: "/tailwind-zadani-sroll/orders",
         element: <Orders />,
       },
       {
-        path: "invoices",
+        path: "/tailwind-zadani-sroll/invoices",
         element: <Invoices />,
       },
       {
-        path: "settings",
+        path: "/tailwind-zadani-sroll/settings",
         element: <Settings />,
       },
     ]
