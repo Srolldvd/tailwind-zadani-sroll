@@ -29,7 +29,7 @@ const Sidebar = () => {
                         {SidebarData.map((item, index) => {
                             return (
                                 <li key={index} className={index !== 0 && "mt-3"}>
-                                    <NavLink to={item.path} className={({ isActive }) => ((isActive && item.path !== "/") ? (`${item.cName} ${activeLinkClass}`) : item.cName)}>
+                                    <NavLink to={item.path} className={({ isActive }) => ((isActive && item.path !== "/tailwind-zadani-sroll/") ? (`${item.cName} ${activeLinkClass}`) : item.cName)}>
                                         <span className="flex items-center gap-2">
                                             {item.icon}
                                             <span>{item.title}</span>
